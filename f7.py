@@ -1,4 +1,11 @@
-tr_harfler = "şçöğüİı"
-while a < len(tr_harfler):
-    print(tr_harfler[a], sep="\n")
-    a += 1
+kardiz = input("Kısaltmasını öğrenmek istediğiniz kurum adını girin: ")
+for i in kardiz.split():
+	print(i[0], end="")
+
+x=[1,2,3,4]
+for i in x:
+	print(i)
+	a=0
+	a+
+	
+	print(i)

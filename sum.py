@@ -1,30 +1,42 @@
+x={1:'winter',
+2:'spring',
+3:'summer',
+4:'fall'}
 
-'''i=0
-while i<=50:
-	i+=5
-	print(i)
+print(x)
+print(x[3])
 
+x[3]='Summer'
+print(x[3])
 
+z={1:'september',
+2:'october',
+3:'november',
+4:'december'}
 
-i=0
-for v in range(50):
-	if i<=50:
-		i+=5
-		print(i) 
-'''
-		
+y={1:'january',
+2:'february',
+3:'march',
+4:'april',
+5:'may',
+6:'june',}
 
-x=[2,1,3]
-ma=x[0]
-mi=x[0]
-a=0
-for i in len(range(x)):
-	a+=1
-	if x[a]>ma:
-		ma=x[a]
-	if x[a]<mi:
-		mi=x[a]
-	print(ma)
-	print(mi)
+d={'d1': {1:'x',2:'y'},
+'d2':{3:'z',4:'l'}}
+
+print(d)
+
+s=[1,2,3]
+s.reverse()
+print(s)
+
+a=[1,2,3,4]
+b=[5,6,7,8]
+a[::2]
+b[::2]
+c=a[::2]+b[::2]
+print(c)
+
+print(len(c)*3)
 
 
